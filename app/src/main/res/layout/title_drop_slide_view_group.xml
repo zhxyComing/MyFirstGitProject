@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myproject.DropView.SlideViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/contentTv"
+            android:background="#9e9e9e"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="凤凰新闻是凤凰新媒体旗下一款资讯类的APP，采用人工智能混合推荐，根据用户兴趣及使用习惯推送的内容，包含由专业内容运营团队编辑推荐内容及凤凰卫视全部节目。"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </android.support.v7.widget.CardView>
+
+</com.example.myproject.DropView.SlideViewGroup>
